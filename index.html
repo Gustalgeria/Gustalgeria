@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gust Algerià</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sección de encabezado -->
+    <header class="hero">
+        <img src="logo.jpeg" alt="Logo Gust Algerià" class="logo">
+        <h1>Benvinguts a Gust Algerià</h1>
+        <p>Descobreix el desert, la nostra cultura i els sabors únics d'Algèria.</p>
+        <a href="#gastronomia" class="btn">Descobreix la nostra gastronomia</a>
+    </header>
+
+    <!-- Sección de gastronomía -->
+    <section id="gastronomia">
+        <h2>Gastronomia d'Algèria</h2>
+        <p>Viatja a través del plat i descobreix els sabors més autèntics d'Algèria.</p>
+    </section>
+
+    <!-- Sección de turismo -->
+    <section id="turismo">
+        <h2>Turisme a Algèria</h2>
+        <p>Viatja a Algèria i explora els seus paisatges impressionants i la seva cultura mil·lenària.</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacta'ns</h2>
+        <p>Si tens preguntes o vols saber més, no dubtis en posar-te en contacte amb nosaltres.</p>
+        <form action="https://formspree.io/f/xbljeely" method="POST">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" placeholder="El teu nom" required>
+
+            <label for="email">Correu electrònic:</label>
+            <input type="email" id="email" name="email" placeholder="El teu correu electrònic" required>
+
+            <label for="message">Missatge:</label>
+            <textarea id="message" name="message" placeholder="Escriu el teu missatge aquí" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Gust Algerià | Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>
